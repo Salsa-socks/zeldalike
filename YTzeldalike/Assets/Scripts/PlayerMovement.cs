@@ -20,14 +20,25 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         change = Vector3.zero;
-        change.x = Input.GetAxis("Horizontal");
-        change.y = Input.GetAxis("Vertical");
+        change.x = Input.GetAxisRaw("Horizontal");
+        change.y = Input.GetAxisRaw("Vertical");
+        UpdateAnim_move();
         //Debug.Log(change);    debug statement
+        
+    }
+
+    void UpdateAnim_move()
+    {
         if (change != Vector3.zero)
         {   
             MoveCharacter();
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
+            animator.SetBool("moving", true);
+        }
+        else
+        {
+            animator.SetBool("moving", false);
         }
     }
 
