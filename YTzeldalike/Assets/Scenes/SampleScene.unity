@@ -164,7 +164,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.847436
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -205,9 +205,9 @@ GameObject:
   - component: {fileID: 1914072811}
   - component: {fileID: 1914072810}
   - component: {fileID: 1914072809}
-  - component: {fileID: 1914072812}
   - component: {fileID: 1914072813}
   - component: {fileID: 1914072814}
+  - component: {fileID: 1914072812}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -292,7 +292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914072808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 40.24, y: -8.39, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -311,7 +311,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -41.12726, y: 8.839167}
+  m_Offset: {x: -41.118576, y: 8.835359}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -322,7 +322,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.51132584, y: 0.27607346}
+  m_Size: {x: 0.4963951, y: 0.25473595}
   m_EdgeRadius: 0
 --- !u!114 &1914072813
 MonoBehaviour:
