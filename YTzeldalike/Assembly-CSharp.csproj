@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CamMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\RoomMove.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/goinfre/bnkosi/Desktop/tut/zeldalike/YTzeldalike/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
